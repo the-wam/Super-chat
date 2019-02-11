@@ -30,8 +30,8 @@
             })
 
             // Quand un nouveau client se connecte, on affiche l'information
-            socket.on('nouveau_client', function(pseudo) {
-                $('#zone_chat').append('<p><em>' + pseudo + ' a rejoint le Chat !</em></p>');
+            socket.on('nouveau_client', function(data) {
+                $('#zone_chat').prepend('<p><em>' + data.pseudo + ' a rejoint le Chat on </em>'+ data.date + '</p>');
             })
 
             // Lorsqu'on envoie le formulaire, on transmet le message et on l'affiche sur la page

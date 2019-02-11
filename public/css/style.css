@@ -7,7 +7,7 @@ body {
 	padding: 2px;
 	margin: 5px;
 }
-#zone_chat strong ::after {
+#zone_chat strong::after {
 	content: ':' ;
 }
 
