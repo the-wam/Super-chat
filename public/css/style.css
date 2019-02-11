@@ -1,0 +1,35 @@
+body {
+	background-color: #F5F1EF;
+}
+#zone_chat strong {
+	color: gold;
+	background-color: #666;
+	padding: 2px;
+	margin: 5px;
+}
+#zone_chat strong ::after {
+	content: ':' ;
+}
+
+body.accueil {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+}
+body.chat {
+
+}
+
+img {
+	margin: 15px;
+}
+#formulaire_chat {
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+}
